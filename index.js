@@ -7,3 +7,14 @@ function theBeatlesPlay(arr, arr2) {
 
   return comp;
 }
+
+function johnLennonFacts(arr) {
+  let i = arr.length;
+
+  while(i > 0) {
+    arr[i] = arr[i].replace(arr[i] + '!!!');
+    i--;
+  }
+  
+  return arr;
+}
