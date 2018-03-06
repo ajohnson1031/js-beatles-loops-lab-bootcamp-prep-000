@@ -11,9 +11,7 @@ function theBeatlesPlay(arr, arr2) {
 function johnLennonFacts(arr) {
   var i = arr.length;
 
-  while(i > 0) {
-    arr[i].replace(arr[i], arr[i] + '!!!');
-  }
+  console.log(i);
 
   return arr;
 }
