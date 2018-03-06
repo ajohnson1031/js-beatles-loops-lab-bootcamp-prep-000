@@ -1,5 +1,5 @@
 function theBeatlesPlay(arr, arr2) {
-  var finArr = new Array();
+  var comp = [];
 
   for(let i = 0; i < arr.length; i++) {
     finArr.push(arr[i] + ' plays ' arr2[i]);
