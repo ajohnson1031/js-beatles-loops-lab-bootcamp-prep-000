@@ -12,9 +12,11 @@ function johnLennonFacts(arr) {
   let i = arr.length;
 
   while(i > 0) {
-    arr[i] = arr[i].replace(arr[i] + '!!!');
+    var str = arr[i];
+    var newStr = str + '!!!');
+    str = newStr;
     i--;
   }
-  
+
   return arr;
 }
